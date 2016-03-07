@@ -1,0 +1,257 @@
+﻿/* GENERAL Style */
+html {
+	background-color: #edf2fb;
+	background:transparent;
+}
+body {
+	height: 100%;
+	margin:0;
+}
+
+
+/* DIV class Style*/
+.title {
+	margin-left:25px;
+}
+.info_block {
+	position:relative;
+	padding-bottom:20px;
+}
+.contact{
+	position: absolute;
+	width: 300px;
+	height: 0px;
+	right: 0px;
+	top: 0px;
+}
+.content_cet {
+	padding-top:100px;
+	text-align:center;
+}
+.content_cet2 {
+	padding-top:0px;
+	text-align:center;
+}
+.content_2 {
+	margin:0 auto;
+	width:960px;
+	text-align:center;
+}
+.date {
+	position: absolute;
+	width: 120px;
+	right: 0;
+	top: 0;
+}
+.footer {
+}
+
+/* DIV id Style*/
+#mainbody {
+}
+#flt_tp {
+	position:fixed;
+	height:100px;
+	width:100%;
+	z-index:100;	
+}
+
+#bk{
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index:-20;
+}
+#flt_nav{
+	position:fixed;
+	margin-left:0px;
+	margin-top:100px;
+	height:100px;
+	width:100px;
+	z-index:100;
+}
+#logo{
+	position:fixed;
+	margin-left:110px;
+	margin-top:0px;
+	height:70px;
+	width:250px;
+	z-index:100;
+}
+/*#download{
+	position:absolute;
+	margin-left:600px;
+	margin-top:170px;
+	height:70px;
+	width:250px;
+	z-index:100;
+}*/
+
+#paper {
+	background-color: #FFFFFF;
+	width: 820px;
+	outline-color: #FFFFFF;
+	margin:0px auto;
+	padding:100px 70px;
+}
+#content {
+}
+#idx_nav {
+	padding-top:15%;
+	height:300px;
+	width:615px;
+}
+#name{
+	position:relative;
+	padding-bottom:50px;
+}
+#gblk {
+	position:absolute;
+	margin:2px auto auto -25px;
+	width:20px;
+	height:20px;
+	background-color:#009900;
+}
+#bblk {
+	position:absolute;
+	margin:2px auto auto -25px;
+	width:20px;
+	height:20px;
+	background-color:#3366FF;
+}
+#oblk {
+	position:absolute;
+	margin:2px auto auto -25px;
+	width:20px;
+	height:20px;
+	background-color:#FF9933;
+}
+#rblk {
+	position:absolute;
+	margin:2px auto auto -25px;
+	width:20px;
+	height:20px;
+	background-color:#CC0000;
+}
+#lblk {
+	position:absolute;
+	margin:2px auto auto -25px;
+	width:20px;
+	height:20px;
+	background-color:#0cf4c7;
+}
+
+/* HR Style */
+.hr1 {
+    height: 0;
+    border: 0;
+    border-top:1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* FORMAT */
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 32px;
+	font-weight: bold;
+
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom:0px;
+}
+h2_2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom:0px;
+}
+
+
+h3{
+	font-family: Georgia, "Times New Roman", Times ,serif ;
+	font-size: 16px;
+	font-weight: bold;
+	margin:0px;
+	margin-right:14 px;
+}
+
+h4 {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin:0px;
+
+}
+
+.style1{
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom:4px;
+	margin-top:0px;
+}/*文本小字*/
+.style2{
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin:0px;
+	text-align: right;
+}/*居边中字*/
+.styleText2{
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:24px;
+	margin:0;
+	text-align: right;
+}/*居边小字*/
+
+.style3{
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:0px;
+	text-align: right;
+	font-weight:bold;
+}/*居边大字*/
+
+.styleText{
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:24px;
+	/*margin:0;*/
+	text-align:left;
+	margin:1px 125px auto 125px;
+	text-indent:2em
+}/*居中中字*/
+
+#MFamily{
+	width:955px;
+	height:600px;
+}
+#sichuan{
+	width:955px;
+	height:1000px;
+}
+#container1 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+#jap{
+	width:955px;
+	height:1000px;
+}
