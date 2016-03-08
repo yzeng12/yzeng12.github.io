@@ -34,7 +34,7 @@ body {
 /*all set 0 otherwise will massup backgroud */
 background: url('../images/bk.jpg');
   background-repeat: no-repeat;
-		background-size: 100% 100%, cover; /*TODO: add media query to scale background to smaller screens*/
+		background-size: 100% 100%, cover; /*background part replace #BK*/
 		background-attachment:fixed;
 }
 
@@ -110,7 +110,7 @@ img {
      padding-top: 1em;
 
   }
-  figcaption {
+  figcaption {		
     position: absolute; /* Position figcaption absolutely, -relative- to figure, above */
     width: 35%; 
     top: 1em; 
