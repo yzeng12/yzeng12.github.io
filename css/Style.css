@@ -24,32 +24,6 @@ html {
 	background:transparent;
 }
 
-
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1.125em; 
@@ -77,6 +51,34 @@ h3 {
   padding-top: 0em; 
   padding-bottom: 0.2em; 
 }
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 img {
   display: block; /* Images display inline by default */
   max-width: 100%; /* Responsive images! Always be at most 100%
@@ -90,6 +92,13 @@ img {
     padding-left: 2em;
 	/*text-align:center;*/
     }
+    
+.content-frame {
+	padding: 1em 1em 1em 1em;
+}
+.imgtopcet {
+	padding: ;
+}
 
 @media screen and (min-width: 33.333333333333336em) {
   figure {
@@ -128,14 +137,14 @@ img {
   }
     
 }
-#bk{
+/*#bk{
 	position:fixed;
 	height:100%;
 	width:100%;
     margin-left:0px;
 	margin-top:0em;
 	z-index:-20;
-}
+}*/
 
 video {
   display: block;
@@ -154,9 +163,3 @@ video {
   flex-basis: 70%;
 }
 
-.content-frame {
-	padding: 1em 1em 1em 1em;
-}
-.imgtopcet {
-	padding: ;
-}
