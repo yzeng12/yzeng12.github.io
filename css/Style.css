@@ -58,6 +58,10 @@ body {
   padding-left: 0em;
   padding-right: 0em; 
 /*all set 0 otherwise will massup backgroud */
+background: url('../images/bk.jpg');
+  background-repeat: no-repeat;
+		background-size: 100% 100%, cover; /*TODO: add media query to scale background to smaller screens*/
+		background-attachment:fixed;
 }
 
 h2 {
