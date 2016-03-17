@@ -92,12 +92,19 @@ img {
     padding-left: 2em;
 	/*text-align:center;*/
     }
+.ccc {
+	padding-top: 38em;
+    padding-left: 50%;
+    position: absolute;
+    z-index:100;
+}
     
 .content-frame {
 	padding: 1em 1em 1em 1em;
 }
 .imgtopcet {
 	padding: ;
+     z-index:99;
 }
 
 @media screen and (min-width: 33.333333333333336em) {
