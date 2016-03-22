@@ -36,8 +36,8 @@ body {
     background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
-    min-width: 720px;
-    width: expression_r( document.body.clientWidth < 721 ? "720px" : "auto" );
+    min-width: 1024px;
+    width: expression_r( document.body.clientWidth < 1025 ? "1024px" : "auto" );
 }
 
 h2 {
