@@ -120,7 +120,8 @@ img {
 }
 .imgtopcet {
 	padding: ;
-     z-index:99;
+    z-index:99;
+    width:"100%"； 
 }
 
 @media screen and (min-width: 33.333333333333336em) {
@@ -183,6 +184,6 @@ video {
   color: #EEE;
   padding: 1em;
   width: auto;
-  flex-basis: 70%;
+  flex-basis: 50%;
 }
 
