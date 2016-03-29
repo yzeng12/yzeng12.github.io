@@ -32,7 +32,7 @@ body {
   padding-left: 0em;
   padding-right: 0em; 
 /*all set 0 otherwise will massup backgroud */
-  background: url('../images/bk.jpg');
+  background: url('../images/bg.png');
   background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
@@ -76,7 +76,7 @@ ul#menu {
     text-align: center;
     margin: 0 auto;
 	  overflow: hidden;
-    background-color: #66a3ff;
+    background-color: #99ccff;
 }
 
 ul#menu li {
@@ -86,7 +86,7 @@ ul#menu li {
 ul#menu li a {
     display: inline-block;
     padding: 1em .625em 1em .625em;
-    color: white;
+    color: #0000e6;
     text-decoration: none;
     font-size: 1.5em; 
 }
