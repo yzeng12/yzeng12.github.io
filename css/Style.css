@@ -32,12 +32,12 @@ body {
   padding-left: 0em;
   padding-right: 0em; 
 /*all set 0 otherwise will massup backgroud */
-    background: url('../images/bk.jpg');
-    background-repeat: no-repeat;
+  background: url('../images/bk.jpg');
+  background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
-    min-width: 1024px;
-    width: expression_r( document.body.clientWidth < 1025 ? "1024px" : "auto" );
+  min-width: 1024px;
+  width: expression_r( document.body.clientWidth < 1025 ? "1024px" : "auto" );
 }
 
 h2 {
@@ -53,8 +53,8 @@ p {
   padding-top: 0em; 
   padding-bottom: 0.2em; 
 }
-
-ul { 
+/* 2list */
+ul#group{ 
     display: block;
     list-style-type: disc;
     margin-top: 1em;
@@ -63,13 +63,39 @@ ul {
     margin-right: 0;
     padding-left: 1em;
 }
-li {
+ul#group li{
     display: list-item;
     list-style-type:disc; 
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    font-size: 1.5em; 
 }
 
+ul#menu {
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+	  overflow: hidden;
+    background-color: #66a3ff;
+}
+
+ul#menu li {
+    display: inline-block;
+}
+
+ul#menu li a {
+    display: inline-block;
+    padding: 1em .625em 1em .625em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em; 
+}
+ul#menu li a:hover {
+    background-color: #888888;
+    color: white;
+}
+
+/* 2list end */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -187,3 +213,17 @@ video {
   flex-basis: 50%;
 }
 
+
+/*
+	modularscale.com 
+	1.6 ratio
+
+	6.554em
+	4.096em
+	2.56em
+	1.6em
+	1em
+	0.625em
+	0.391em
+	0.244em
+*/
