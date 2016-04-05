@@ -182,7 +182,7 @@ img1 {
 
 .videobk {
     background-color: #111111; 
-    padding: 1em .625em 1em .625em;
+    padding: .025em .625em .025em .625em;
 }
 
 @media screen and (min-width: 30em) {
