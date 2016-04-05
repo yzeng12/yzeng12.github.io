@@ -36,24 +36,24 @@ body {
   background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
-  min-width: 1024px;
-  width: expression_r( document.body.clientWidth < 1025 ? "1024px" : "auto" );
+  min-width: 360px;
+  width: expression_r( document.body.clientWidth < 361 ? "360px" : "auto" );
 }
 
 h2 {
-  font-size: 3em; 
+  font-size: 2.5em; 
   line-height: 2.1em; 
   padding-top: 0em; 
   padding-bottom: 0.3em; 
 }
 
 p {
-  font-size: 1.5em; 
+  font-size: 1.1em; 
   line-height: 1.7em;
   padding-top: 0em; 
   padding-bottom: 0.2em; 
 }
-/* 2list */
+/* 3list */
 ul#group{ 
     display: block;
     list-style-type: disc;
@@ -68,7 +68,7 @@ ul#group li{
     list-style-type:disc; 
     margin-top: 0.2em;
     margin-bottom: 0.2em;
-    font-size: 1.5em; 
+    font-size: 1.1em; 
 }
 
 ul#menu {
@@ -91,11 +91,35 @@ ul#menu li a {
     font-size: 1.5em; 
 }
 ul#menu li a:hover {
-    background-color: #888888;
+    background-color: #777788;
     color: white;
 }
 
-/* 2list end */
+ul#indexmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f3f3f3;
+}
+
+ul#indexmenu li a {
+    display: block;
+    color: #0000d3;
+    padding: 1em .625em 1em .625em;
+    text-decoration: none;
+    font-size: 1.5em; 
+}
+
+/* Change the link color on hover */
+ul#indexmenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+/* 3list end */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -128,6 +152,13 @@ img {
                       (<figure>, in this example's case) */
   padding-bottom: 1em; /* 25.92px / 18px */
 }
+img1 {
+  display: block; /* Images display inline by default */
+  max-width: 100%; /* Responsive images! Always be at most 100%
+                      the width of the containing element
+                      (<figure>, in this example's case) */
+  padding-bottom: 1em; /* 25.92px / 18px */
+}
 
 .content{
 	padding-top:1.5em;
@@ -145,12 +176,16 @@ img {
 	padding: 1em 1em 1em 1em;
 }
 .imgtopcet {
-	padding: ;
     z-index:99;
     width:"100%"； 
 }
 
-@media screen and (min-width: 33.333333333333336em) {
+.videobk {
+    background-color: #111111; 
+    padding: 1em .625em 1em .625em;
+}
+
+@media screen and (min-width: 30em) {
   figure {
     position: relative; 
   }
@@ -158,11 +193,10 @@ img {
      padding-left:1%; /* Push img out of figcaptions's way */
      width:100%;  /* size control*/
      padding-top: 1em;
-
   }
   figcaption {		
     position: absolute; /* Position figcaption absolutely, -relative- to figure, above */
-    width: 35%; 
+    width: 50%; 
     top: 1em; 
     left: 1em; 
     font-size: 1em; 
@@ -178,15 +212,33 @@ img {
   .flexbox .images1 {
     margin-left: 0;
     width: auto;
-    flex-basis: 25%;
+    flex-basis: 30%;
   }
   .flexbox figcaption {
     position: static;
     width: auto;
     flex-basis: 70%;
   }
-    
+  video {
+    display: block;
+    max-width: 100%;
+    margin: 1em auto;
+    z-index:100;
+  }
+
+  .video {
+    background-color: #222;
+  }
+  .video figcaption {
+    color: #EEE;
+    padding: 1em;
+    width: auto;
+    flex-basis: 70%;
+  }
+
 }
+
+
 /*#bk{
 	position:fixed;
 	height:100%;
@@ -196,22 +248,7 @@ img {
 	z-index:-20;
 }*/
 
-video {
-  display: block;
-  max-width: 100%;
-  margin: 1em auto;
-  z-index:100;
-}
 
-.video {
-  background-color: #222;
-}
-.video figcaption {
-  color: #EEE;
-  padding: 1em;
-  width: auto;
-  flex-basis: 50%;
-}
 
 
 /*
