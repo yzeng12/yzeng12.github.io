@@ -36,8 +36,8 @@ body {
   background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
-  min-width: 360px;
-  width: expression_r( document.body.clientWidth < 361 ? "360px" : "auto" );
+  min-width: 1280px;
+  width: expression_r( document.body.clientWidth < 1281 ? "1280px" : "auto" );
 }
 
 h2 {
@@ -184,16 +184,18 @@ img1 {
     background-color: #111111; 
     padding: .025em .625em .025em .625em;
 }
+.images1 {
+     padding-left:1%; /* Push img out of figcaptions's way */
+     width:100%;  /* size control*/
+     padding: .025em .625em .025em .625em;
+  }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 40em) {
+
   figure {
     position: relative; 
   }
-  .images1 {
-     padding-left:1%; /* Push img out of figcaptions's way */
-     width:100%;  /* size control*/
-     padding-top: 1em;
-  }
+  
   figcaption {		
     position: absolute; /* Position figcaption absolutely, -relative- to figure, above */
     width: 50%; 
