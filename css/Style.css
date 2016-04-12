@@ -195,8 +195,6 @@ img1 {
 
 .content{
 	padding-top:1.5em;
-    padding-left: 2em;
-	/*text-align:center;*/
     }
 .ccc {
 	padding-top: 38em;
@@ -212,6 +210,7 @@ img1 {
     z-index:99;
     width:"100%"； 
 }
+
 .date {
 	position: absolute;
 	width: 12em;
@@ -220,7 +219,9 @@ img1 {
 }
 .videobk {
     background-color: #111111; 
-    padding: .025em .625em .025em .625em;
+    padding: .025em 11.625em .025em 0.625em;
+    text-align: left;
+    width: auto;
 }
 .images1 {
      padding-left:1%; /* Push img out of figcaptions's way */
@@ -276,22 +277,6 @@ img1 {
     width: auto;
     flex-basis: 70%;
   }
-  video {
-    display: block;
-    max-width: 100%;
-    margin: 1em auto;
-    z-index:100;
-  }
-
-  .video {
-    background-color: #222;
-  }
-  .video figcaption {
-    color: #EEE;
-    padding: 1em;
-    width: auto;
-    flex-basis: 70%;
-  }
 
 }
 
@@ -333,7 +318,10 @@ resume part
 	padding-bottom:5em;
 }
 
-
+#mainpage_loc{
+padding: 1em,1em,1em,1em;
+margin-left:1em;
+}
 /* HR Style */
 .hr1 {
     height: 0;
@@ -385,8 +373,6 @@ resume part
 	margin-top:0em;
 	z-index:-20;
 }*/
-
-
 
 
 /*
