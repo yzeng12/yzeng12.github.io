@@ -319,7 +319,7 @@ resume part
 }
 
 #mainpage_loc{
-padding: 1em,1em,1em,1em;
+margin-top:1em;
 margin-left:1em;
 }
 /* HR Style */
@@ -360,7 +360,7 @@ margin-left:1em;
 }
 #lblk {
 	position:absolute;
-  margin:1.75em auto auto -2em ;
+    margin:1.75em auto auto -2em ;
 	width:1em;
 	height:1em;
 	background-color:#0cf4c7;
