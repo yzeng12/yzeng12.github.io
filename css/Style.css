@@ -169,7 +169,7 @@ ul#indexmenu li a:hover {
     color: white;
 }
 /*mene2*/
-ul#menu2 {
+ul#menue {
     padding: 0;
     text-align: center;
     margin: 0 auto;
@@ -177,11 +177,11 @@ ul#menu2 {
 
 }
 
-ul#menu2 li {
+ul#menue li {
     display: inline-block;
 }
 
-ul#menu2 li a {
+ul#menue li a {
     display: inline-block;
     padding: 1em .625em 1em .625em;
     color: #0000e6;
@@ -189,7 +189,7 @@ ul#menu2 li a {
     font-size: 1.5em; 
 }
 @media screen and (max-width: 40em) {
-ul#menu2 li a {
+ul#menue li a {
     display: inline-block;
     padding: ;
     color: #0000e6;
