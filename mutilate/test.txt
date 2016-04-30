@@ -1,0 +1,1 @@
+alias hamlr="haml-coffee -r -f xhtml -i"

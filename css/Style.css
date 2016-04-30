@@ -36,8 +36,8 @@ body {
   background-repeat: no-repeat;
 	background-size: cover; /*background part replace #BK*/
 	background-attachment:fixed;
-  min-width: 1280px;
-  width: expression_r( document.body.clientWidth < 1281 ? "1280px" : "auto" );
+  /*min-width: 1280px;
+  width: expression_r( document.body.clientWidth < 1281 ? "1280px" : "auto" );*/
 }
 h1 {
 	font-size: 3.2em;
@@ -55,6 +55,7 @@ h2 {
    padding-top: 0em; 
   padding-bottom: 0.2em; 
 }
+
 h3{
 	font-size: 0.8em;
 	font-weight: bold;
@@ -85,7 +86,7 @@ p {
   line-height: 1.2em;
 
 }
-/* 3list */
+/* 4list */
 ul#group{ 
     display: block;
     list-style-type: disc;
@@ -132,7 +133,7 @@ ul#indexmenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 20em;
     background-color: #f3f3f3;
 }
 
@@ -143,16 +144,66 @@ ul#indexmenu li a {
     text-decoration: none;
     font-size: 1.5em; 
 }
+/* Change size for mobile useage*/
+@media screen and (max-width: 40em) {
+   ul#indexmenu li a {
+    display: block;
+    color: #0000d3;
+    padding: 1em .625em 1em .625em;
+    text-decoration: none;
+    font-size: 1em; 
+} 
+ul#menu li a {
+    display: inline-block;
+    padding: 1em .625em 1em .625em;
+    color: #0000e6;
+    text-decoration: none;
+    font-size: 1em; 
+}
+
+}
 
 /* Change the link color on hover */
 ul#indexmenu li a:hover {
     background-color: #555;
     color: white;
 }
+/*mene2*/
+ul#menu2 {
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+	  overflow: hidden;
+
+}
+
+ul#menu2 li {
+    display: inline-block;
+}
+
+ul#menu2 li a {
+    display: inline-block;
+    padding: 1em .625em 1em .625em;
+    color: #0000e6;
+    text-decoration: none;
+    font-size: 1.5em; 
+}
+@media screen and (max-width: 40em) {
+ul#menu2 li a {
+    display: inline-block;
+    padding: ;
+    color: #0000e6;
+    text-decoration: none;
+    font-size: 1em; 
+}
+.link{
+    width:50%
+}
+    }
 
 
-
-/* 3list end */
+/*mene2end*/
+/* 4list end */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -213,9 +264,17 @@ img1 {
 
 .date {
 	position: absolute;
-	width: 12em;
+	width: 12%;
 	right: 0;
 	top: 0;
+}
+@media screen and (max-width: 60em) {
+.date {
+	position: relative;
+	width: 100%;
+	right: 0;
+	top: 0;
+}
 }
 .videobk {
     background-color: #111111; 
@@ -228,12 +287,19 @@ img1 {
      width:100%;  /* size control*/
      padding: .025em .625em .025em .625em;
 }
-
+@media screen and (max-width: 40em) {
+.images1 {
+     padding-left:1%; /* Push img out of figcaptions's way */
+     width:50%;  /* size control*/
+     padding: .025em .625em .025em .625em;
+}
+}
 .style1{
 	font-size: 1.4em;
 	margin-bottom:0.5em;
 	margin-top:0px;
 }
+@media screen and (min-width: 40em) {
 .style2{
 	font-size: 1.4em;
 	margin:0;
@@ -244,6 +310,35 @@ img1 {
 	font-size:2.4em;
 	margin:0;
 	text-align: right;
+}
+.style3{
+
+	font-size: 12px;
+	margin:0px;
+	text-align: right;
+	font-weight:bold;
+}
+}
+
+@media screen and (max-width: 40em) {
+.style2{
+	font-size: 1.4em;
+	margin:0;
+	margin:0px;
+
+
+}
+.styleText2{
+	font-size:2.4em;
+	margin:0;
+
+}
+.style3{
+
+	font-size: 12px;
+	margin:0px;
+	font-weight:bold;
+}
 }
 
 @media screen and (min-width: 40em) {
@@ -285,17 +380,29 @@ resume part
 */
 .contact{
 	position: absolute;
-	width: 30em;
+	width: 30%;
 	height: 5.4em;
 	right: 0em;
 	top: 1em;
 }
+
+@media screen and (max-width: 40em) {
+ .contact{
+	position: relative;
+	width: 100%;
+	height: 5.4em;
+	right: 0em;
+	top: 1em;
+}   
+    }
+
+
 .title {
 	margin-left:2.5em;
 }
 .info_block {
 	position:relative;
-	padding-bottom:20px;
+	padding-bottom:2em;
 }
 
 #logo{
@@ -308,7 +415,7 @@ resume part
 }
 #paper {
 	background-color: #FFFFFF;
-	width: 82em;
+	width: 85%;
 	outline-color: #FFFFFF;
 	margin:0em auto;
 	padding:0em 2em;

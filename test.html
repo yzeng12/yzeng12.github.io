@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>{Title}</title>
+    <link rel='stylesheet' href='https://yzeng12.github.io/css/Style.css' />
+  </head>
+  <body>
+    <div class='content-frame'>
+      <ul id='menu'>
+        <li>
+          <a href='http://yzeng12.github.io/index.html'>Home</a>
+        </li>
+        <li>
+          <a href='http://yzeng12.github.io/resume.html'>Resume</a>
+        </li>
+        <li>
+          <a href='http://yzeng12.github.io/contact.html'>Contact Info</a>
+        </li>
+        <li>
+          <a href='http://yzeng12.github.io/myvideo.html'>Introduction Video</a>
+        </li>
+      </ul>
+    </div>
+    <div class='content'>
+      <figure role='images1'>
+        <div class='images1'>
+          <img src='https://yzeng12.github.io/images/AAAA.jpg' alt='my photo' width='70%' />
+        </div>
+        <figcaption id='flexbox'>
+          <div class='content-frame'>
+            <h2>
+              Contact Info
+            </h2>
+            <p>
+              356 W 31st ST Chicago, IL 60616
+            </p>
+            <p>
+              Phone: (331)472-9980
+            </p>
+            <p>
+              Email: Zengyx1995@gmail.com / yzeng12@hawk.iit.edu
+            </p>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+    <div class='content-frame'>  
+      <header id='header'>
+        <h2 align='center'>
+          <a href='{BlogURL}'>{Title}</a>
+        </h2>
+        <p>{Description} </p>
+      </header>
+      <div class='main'>
+        <h3>
+          {block:Posts}
+        </h3>
+        <p>
+          {block:Text}
+        </p>
+        <article class='text'>
+          <header>
+            <h2>
+              {block:IndexPage}
+              <a href='{Permalink}'>{Title}</a>
+              {/block:IndexPage}
+              {block:PermalinkPage}
+              {Title}
+              {/block:PermalinkPage}
+            </h2>
+          </header>
+          <div class='content'>
+            <p>{Body}</p>
+          </div>
+          <footer>
+            <p class='style2'>Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}</p>
+          </footer>
+        </article>
+        {/block:Text}
+        {block:Photo}
+        <article class='photo'>
+          <figure aria-labelledby='photo{PostID}'>
+            <img src='{PhotoURL-HighRes}' alt='{PhotoAlt}' />
+            <figcaption id='photo{PostID}'>{Caption}</figcaption>
+          </figure>
+        </article>
+        {/block:Photo}
+        {/block:Posts}   
+      </div>
+    </div>
+    <script src='http://yzeng12.github.io/js/modernizr.js'></script>
+  </body>
+</html>

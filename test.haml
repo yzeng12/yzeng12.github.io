@@ -1,0 +1,55 @@
+%html
+  %head
+    %title {Title}
+    %link{rel: "stylesheet", href: "https://yzeng12.github.io/css/Style.css"}
+  %body
+    .content-frame
+      %ul#menu
+        %li
+          %a{href: "http://yzeng12.github.io/index.html"}Home
+        %li
+          %a{href: "http://yzeng12.github.io/resume.html"}Resume
+        %li
+          %a{href: "http://yzeng12.github.io/contact.html"}Contact Info
+        %li
+          %a{href: "http://yzeng12.github.io/myvideo.html"}Introduction Video
+    
+    .content
+      %figure{role: "images1"}
+        .images1
+          %img{src: 'https://yzeng12.github.io/images/AAAA.jpg',alt: "my photo",width:"70%"}
+        %figcaption#flexbox
+          .content-frame
+            %h2 
+              Contact Info
+            %p
+              356 W 31st ST Chicago, IL 60616
+            %p
+              Phone: (331)472-9980
+            %p
+              Email: Zengyx1995@gmail.com / yzeng12@hawk.iit.edu
+    .content-frame    
+      %header#header
+        %h2{align:"center"}
+          %a{href: "{BlogURL}"} {Title}
+        %p {Description} 
+      .main
+        %h3
+          {block:Posts}
+        %p
+          {block:Text}
+        %article.text
+          %header
+            %h2 
+              {block:IndexPage}
+              %a{href: "{Permalink}"} {Title}
+              {/block:IndexPage}
+              {block:PermalinkPage}
+              {Title}
+              {/block:PermalinkPage}
+          .content 
+            %p {Body}
+          %footer
+            %p.style2 Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}
+       
+    %script{src:"http://yzeng12.github.io/js/modernizr.js"}
