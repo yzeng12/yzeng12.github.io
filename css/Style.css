@@ -288,9 +288,12 @@ img {
     padding: .025em 11.625em .025em 0.625em;
     text-align: center;
     width: auto;
-
 }
-
+.bikelinemap{
+    padding: .025em 11.625em .025em 0.625em;
+    text-align: center;
+    width: auto;
+}
 @media screen and (max-width: 40em) {
 .PC_mode{
     display:none;
