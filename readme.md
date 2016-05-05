@@ -22,3 +22,5 @@ I tried use tumbler Portrait in my blog index. But something rare happen, my js 
 The big issue for my index is I can’t control body post style and format in my index page. Everything include picture and list in my post just simply pull by {Body}. This is insane that all picture automatically align right in my blog index page. I tried add margin:0 auto; in my img css. And define text-align: center;  in original post. one of it work finally with lot test.
 
 other update: new video and video capation
+
+Somthing say at final. Thanks this classes which helped me a lot on webpage design. especially concept about mobile first design and formal orgnize. not only for this class, but also improved my IPRO webpage. by the way, if you ride bike take a look our IPRO webpage :P. Hope you have a good summer vacation.
