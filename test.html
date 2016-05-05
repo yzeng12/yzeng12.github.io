@@ -21,9 +21,9 @@
       </ul>
     </div>
     <div class='content'>
-      <figure role='images1'>
+      <figure role='img1'>
         <div class='images1'>
-          <img src='https://yzeng12.github.io/images/AAAA.jpg' alt='my photo' width='70%' />
+          <img src='https://yzeng12.github.io/images/AAA.jpg' alt='my photo' width='70%' />
         </div>
         <figcaption id='flexbox'>
           <div class='content-frame'>
@@ -72,19 +72,16 @@
             <p>{Body}</p>
           </div>
           <footer>
+            <p class='style1'>see detail at: 
+              {block:ContentSource} 
+              <a herf='{SourceURL}'>SourceURL </a>
+              {/block:ContentSource}
+            </p>
+            <p class='style1'>blog hot:{NoteCount}</p>
+            <p class='style1'>hash tag: {block:Tags}{Tag} {/block:Tags}</p>
             <p class='style2'>Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}</p>
           </footer>
         </article>
-        {/block:Text}
-        {block:Photo}
-        <article class='photo'>
-          <figure aria-labelledby='photo{PostID}'>
-            <img src='{PhotoURL-HighRes}' alt='{PhotoAlt}' />
-            <figcaption id='photo{PostID}'>{Caption}</figcaption>
-          </figure>
-        </article>
-        {/block:Photo}
-        {/block:Posts}   
       </div>
     </div>
     <script src='http://yzeng12.github.io/js/modernizr.js'></script>

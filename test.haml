@@ -15,9 +15,9 @@
           %a{href: "http://yzeng12.github.io/myvideo.html"}Introduction Video
     
     .content
-      %figure{role: "images1"}
+      %figure{role: "img1"}
         .images1
-          %img{src: 'https://yzeng12.github.io/images/AAAA.jpg',alt: "my photo",width:"70%"}
+          %img{src: 'https://yzeng12.github.io/images/AAA.jpg',alt: "my photo",width:"70%"}
         %figcaption#flexbox
           .content-frame
             %h2 
@@ -50,6 +50,12 @@
           .content 
             %p {Body}
           %footer
+            %p.style1 see detail at: 
+              {block:ContentSource} 
+              %a{herf:"{SourceURL}" } SourceURL 
+              {/block:ContentSource}
+            %p.style1 blog hot:{NoteCount}
+            %p.style1 hash tag: {block:Tags}{Tag} {/block:Tags}
             %p.style2 Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}
        
     %script{src:"http://yzeng12.github.io/js/modernizr.js"}

@@ -18,7 +18,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+footer
+{
+    margin-top:0.5em;
+}
 html {
 	background-color: #edf2fb;
 	background:transparent;
@@ -173,8 +176,7 @@ ul#menue {
     padding: 0;
     text-align: center;
     margin: 0 auto;
-	  overflow: hidden;
-
+	overflow: hidden;
 }
 
 ul#menue li {
@@ -196,6 +198,7 @@ ul#menue li a {
     text-decoration: none;
     font-size: 1em; 
 }
+
 .link{
     width:50%
 }
@@ -235,14 +238,17 @@ img {
                       the width of the containing element
                       (<figure>, in this example's case) */
   padding-bottom: 1em; /* 25.92px / 18px */
+  margin:0 auto;
 }
-img1 {
+
+img {
   display: block; /* Images display inline by default */
   max-width: 100%; /* Responsive images! Always be at most 100%
                       the width of the containing element
                       (<figure>, in this example's case) */
   padding-bottom: 1em; /* 25.92px / 18px */
 }
+
 
 .content{
 	padding-top:1.5em;
@@ -287,6 +293,7 @@ img1 {
      width:100%;  /* size control*/
      padding: .025em .625em .025em .625em;
 }
+
 @media screen and (max-width: 40em) {
 .images1 {
      padding-left:1%; /* Push img out of figcaptions's way */
