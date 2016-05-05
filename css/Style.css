@@ -282,12 +282,31 @@ img {
 	top: 0;
 }
 }
+
 .videobk {
     background-color: #111111; 
     padding: .025em 11.625em .025em 0.625em;
-    text-align: left;
+    text-align: center;
     width: auto;
+
 }
+
+@media screen and (max-width: 40em) {
+.PC_mode{
+    display:none;
+    
+}
+}
+
+@media screen and (min-width: 40em) {
+.mobile_mode{
+    display:none;
+    
+}
+}
+
+
+
 .images1 {
      padding-left:1%; /* Push img out of figcaptions's way */
      width:100%;  /* size control*/
