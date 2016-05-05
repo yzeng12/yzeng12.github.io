@@ -11,7 +11,9 @@ After multiple page project, I noticed I need lot improvement to achieve good vi
      In menu part (all 4 pages), the front size will be decrease, so user will not fell uncomfortable with large menu bar occupied at front of page. 
      Portrait size decrease in index, contact part when use on mobile devices.
      The media link images supposed to be small and crowed into 1 line on mobile devices, I successfully reduced pic size by media query but image margin still exist (bug need fix but fail) 
-
+     the Style 2 text formate no longer align right when use on mobile devices. because they will over ride others if screen not wide enough.
+     
+     
 In this project, I learned a lot with haml and tumblr API use. The haml benefit for me is the format compiled to html is pretty clear and neat. And I don’t need take time and worry miss close tag. But I feel haml is not quit flexible than html. Need careful with indent, probably I’m not too feminized with it, will practice more in future.
 
 I successfully used blog post time, blog hot, source url, hash tag and most tumblr api taught in class. But their still some bugs:
