@@ -18,7 +18,7 @@ Change I made for mobile devices
 
   the Style 2 text formate no longer align right when use on mobile devices. because they will over ride others if screen not wide enough.
    
-   I added an condition bar for video part. if user use mobile devices. they have to view video by link. because the video table kind too small when use on mobile devices. 
+I added an condition bar for video part. if user use mobile devices. they have to view video by link. because the video table kind too small when use on mobile devices. 
    
      
 In this project, I learned a lot with haml and tumblr API use. The haml benefit for me is the format compiled to html is pretty clear and neat. And I don’t need take time and worry miss close tag. But I feel haml is not quit flexible than html. Need careful with indent, probably I’m not too feminized with it, will practice more in future.
@@ -34,5 +34,9 @@ other update: new video and video capation
 #Somthing say at final. 
 
 Thanks this classes which helped me a lot on webpage design. especially concept about mobile first design and formal orgnize. not only for this class, but also improved my IPRO webpage. by the way, if you ride bike take a look our IPRO webpage :P. Hope you have a good summer vacation.
+
+#cridits
+
+I would like to say thank you to Karl Stolley for help in those project.
 
 #Yixin Zeng
