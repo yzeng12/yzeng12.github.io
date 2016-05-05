@@ -16,5 +16,5 @@ In this project, I learned a lot with haml and tumblr API use. The haml benefit 
 
 I successfully used blog post time, blog hot, source url, hash tag and most tumblr api taught in class. But their still some bugs:
 I tried use tumbler Portrait in my blog index. But something rare happen, my js file not work. I’m not sure this is cache problem or others. 
-The big issue for my index is I can’t control body post style and format in my index page. Everything include picture and list in my post just simply pull by {Body}. This is insane that all picture automatically align right in my blog index page. I tried add margin:0 auto; in my img css. And define text-align: center;  in original post. Seems both not work.
+The big issue for my index is I can’t control body post style and format in my index page. Everything include picture and list in my post just simply pull by {Body}. This is insane that all picture automatically align right in my blog index page. I tried add margin:0 auto; in my img css. And define text-align: center;  in original post. one of it work finally with lot test.
 

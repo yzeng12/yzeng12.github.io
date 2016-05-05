@@ -15,19 +15,9 @@
           %a{href: "http://yzeng12.github.io/myvideo.html"}Introduction Video
     
     .content
-      %figure{role: "img1"}
-        .images1
-          %img{src: 'https://yzeng12.github.io/images/AAA.jpg',alt: "my photo",width:"70%"}
-        %figcaption#flexbox
-          .content-frame
-            %h2 
-              Contact Info
-            %p
-              356 W 31st ST Chicago, IL 60616
-            %p
-              Phone: (331)472-9980
-            %p
-              Email: Zengyx1995@gmail.com / yzeng12@hawk.iit.edu
+      %img{src: '{content-frame}',alt: "my photo"}
+       
+          
     .content-frame    
       %header#header
         %h2{align:"center"}
@@ -54,8 +44,17 @@
               {block:ContentSource} 
               %a{herf:"{SourceURL}" } SourceURL 
               {/block:ContentSource}
-            %p.style1 blog hot:{NoteCount}
-            %p.style1 hash tag: {block:Tags}{Tag} {/block:Tags}
+            %p.style2 blog hot:{NoteCount}
+            %p.style2 hash tag: {block:Tags}{Tag} {/block:Tags}
             %p.style2 Posted at {12Hour}:{Minutes}{AmPm} {Month} {DayOfMonth}, {Year}
-       
+    
+      %h2 
+        Contact our group
+      %p
+        Team leader
+      %p
+        Phone: (331)472-9980
+      %p
+        Email: Zengyx1995@gmail.com / yzeng12@hawk.iit.edu
+        
     %script{src:"http://yzeng12.github.io/js/modernizr.js"}
