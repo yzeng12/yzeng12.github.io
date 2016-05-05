@@ -7,11 +7,12 @@
 #COM327
 
 After multiple page project, I noticed I need lot improvement to achieve good view on mobile devices. 
-     Change I made for mobile devices:
+
+Change I made for mobile devices
      
-     In menu part (all 4 pages), the front size will be decrease, so user will not fell uncomfortable with large menu bar occupied at front of page. 
+  In menu part (all 4 pages), the front size will be decrease, so user will not fell uncomfortable with large menu bar occupied at front of page. 
     
-    Portrait size decrease in index, contact part when use on mobile devices.
+  Portrait size decrease in index, contact part when use on mobile devices.
   
   The media link images supposed to be small and crowed into 1 line on mobile devices, I successfully reduced pic size by media query but image margin still exist (bug need fix but fail) 
 
